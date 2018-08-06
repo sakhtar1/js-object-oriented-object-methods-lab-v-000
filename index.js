@@ -1,7 +1,7 @@
 function BoardMember(name, homestate, training) {
-  this.name = name;
-  this.homestate = homestate;
-  this.training = training;
+  this.name = name
+  this.homestate = homestate
+  this.training = training
   this.veto = function(){
     console.log("No, I must disagree");
     }
@@ -10,7 +10,7 @@ function BoardMember(name, homestate, training) {
     }
   this.doCharity = function(){
       console.log("I like to help people.");
-    } 
+    }
   this.releasePressStatement = function(){
       console.log("You will see great things from Scuber.");
     }
